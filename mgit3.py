@@ -575,7 +575,7 @@ def add(x):
                     
                   
                     
-# this code is right now unstable.
+
 def pull():
     #os.removedirs(mygit_floger_perfect_path)
     #os.rmdir(mygit_floger_perfect_path)
@@ -613,7 +613,6 @@ def pull():
     
     
     
-#push code best of luck
 def push():
     s = socket.socket()             
     host = socket.gethostname()     
@@ -645,7 +644,6 @@ def push():
     s.send(bytes('Thank you for connecting',"utf-8"))
     os.remove(my_project_perfect_path+'/mygit.zip')
     s.close()    
-#this code is right now unstable.
 
 
 
